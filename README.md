@@ -2,7 +2,7 @@
 Code for working with nanopore sequencing data collected in altered gravitointertial environments, such as during parabolic flight. For details on processing acceleration data from parabolic flights, see the related repository: <https://github.com/CarrCE/zerog>
 
 # Compatibility
-Tested with MATLAB 2019b on OS X 10.13. Expected to work with MATLAB 2019a. Requires the Statistics and Bioinformatics toolboxes.
+Tested with MATLAB 2019b on OS X 10.13. Expected to work with MATLAB 2019a. Requires the Statistics and Bioinformatics toolboxes. Because one of the datafiles is large, 32 GB memory is recommended.
 
 # Citation
 Carr CE, Bryan NC, Saboda K, Bhattaru SA, Ruvkun G, Zuber MT. Nanopore Sequencing at Mars, Europa, and Microgravity Conditions. In preparation.
@@ -29,7 +29,7 @@ Direct access to accelerometer analysis results:
 The analysis results are also available (188 MB ZIP) at: <https://osf.io/pmhj4/download>
 
 ## Run Analysis
-In MATLAB, go to your ```/zerogseq-master``` path, and run the main script: ```zerogseq_00_download```. To perform the same analysis as in the publication (see citation, above), run each script in turn. Some require changing the dataset between "Flight" or "Ground" options. See each script for details and instructions.
+In MATLAB, go to your ```/zerogseq-master``` path, and run the main script: ```zerogseq```. To perform the same analysis as in the publication (see citation, above), run each script in turn. Some require changing the dataset between "Flight" or "Ground" options. See each script for details and instructions.
 
 The results of running this analysis in MATLAB include a series of EPS and/or PDF figures, replicating those in the paper, and various tab-delimited files. All times are elapsed time, and for reference, the start time is: 2017-11-17 18:28:51 UTC.
 
