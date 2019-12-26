@@ -18,6 +18,10 @@ Unzip to preferred location, here denoted ```/zerogseq-master```.
 ## Get Data
 Data is downloaded automatically by a matlab script. This is the recommended approach to ensure data is in the expected locations.
 
+Direct access to sequencing and vibration data:
+https://osf.io/n6krq/
+There are many files required, and after downloading the multipart zip files of sequencing data must be merged and unzipped. Thus, it is recommended to use the MATLAB script to automatically download, merge, and unzip the multipart zip archives. Instructions are included at the link.
+
 Direct access to accelerometer data:
 Download: <https://osf.io/5rqu9/download>. This 1.0 GB (compressed ZIP) dataset has a CC BY 4.0 US license. More details at: <https://osf.io/nk2w4/>
 
@@ -31,4 +35,3 @@ The results of running this analysis in MATLAB include a series of EPS and/or PD
 
 # License
 Distributed under an MIT license. See LICENSE for details.
-
