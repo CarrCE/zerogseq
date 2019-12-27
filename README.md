@@ -31,6 +31,8 @@ The analysis results are also available (188 MB ZIP) at: <https://osf.io/pmhj4/d
 ## Run Analysis
 In MATLAB, go to your ```/zerogseq-master``` path, and run the main script: ```zerogseq```. This will perform the same analysis as in the publication (see citation, above), running each script in turn, including running some twice, once each on the "Flight" or "Ground" datasets. See each script for details and instructions.
 
+The analysis may take up to 5-6 hours.
+
 The results of running this analysis in MATLAB include a series of EPS and/or PDF figures, replicating those in the paper, and various tab-delimited files. All times are elapsed time, and for reference, the start time is: 2017-11-17 18:28:51 UTC.
 
 # License
