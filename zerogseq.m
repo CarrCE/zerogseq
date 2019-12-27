@@ -10,19 +10,19 @@ clear all; close all; clc; dataset = 'Ground';
 zerogseq_04_vibration_analysis;
 
 clear all; close all; clc; dataset = 'Flight';
-zerogseq_04_gather_sequencing_stats
+zerogseq_04_vibration_analysis;
 
 clear all; close all; clc; dataset = 'Ground';
-zerogseq_05_vibration_and_sequence_quality
+zerogseq_05_vibration_and_sequence_quality;
 
 clear all; close all; clc; dataset = 'Flight';
-zerogseq_05_vibration_and_sequence_quality
+zerogseq_05_vibration_and_sequence_quality;
 
 clear all; close all; clc; dataset = 'Ground';
-zerogseq_06_vibration_and_sequence_quality
+zerogseq_06_vibration_and_ionic_current_noise;
 
 clear all; close all; clc; dataset = 'Flight';
-zerogseq_06_vibration_and_sequence_quality
+zerogseq_06_vibration_and_ionic_current_noise;
 
 clear all; close all; clc;
-zerogseq_07_translocation_times
+zerogseq_07_translocation_times;
